@@ -1,0 +1,47 @@
+.grid {
+    display: grid;
+    background: gray;
+    border: 1px solid black;
+    width: 450px;
+    height: 450px;
+    border-radius: 5px;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+.red{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 5px 5px 5px 5px;
+}
+
+.blue{
+    background-color: blue;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 5px 5px 5px 5px;
+}
+
+.spot{
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding: 5px 5px 5px 5px;
+}
+
+#reButton{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.inputs{
+    padding-left: 21px;
+}
+
+.drop{
+    margin-right: 39px;
+    margin-bottom: 5px;
+}
